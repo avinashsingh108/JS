@@ -19,3 +19,8 @@ console.log(state.trim().replace(' ','50'));
 console.log(naam.includes('Avi'));
 
 console.log(naam.split(' ',3));
+console.log(naam.at(2));
+console.log(naam.concat(" is from UP"));
+console.log(naam.endsWith("hello"));
+console.log(`${naam.repeat(2)}`);
+console.log(naam.replace(' '," abc "));
